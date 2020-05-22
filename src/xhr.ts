@@ -1,7 +1,7 @@
 /*
  * @Author: seth
  * @Date: 2020-05-17 00:34:05
- * @LastEditTime: 2020-05-19 22:36:52
+ * @LastEditTime: 2020-05-19 23:04:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \re-ts-axios\src\xhr.ts
@@ -14,4 +14,3 @@ export default function xhr(config: AxiosRequestConfig): void {
   request.open(method.toUpperCase(), url, true)
   request.send(data)
 }
-xhr({ method: 'GET', url: '', data: '' })
